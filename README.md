@@ -14,7 +14,6 @@ you have to first learn html,css,javascript
 =>now you have to go (cd "my first")
 =>"npm install"(it install node modules)
 =>"npm run dev"(it run your app)
-# Files
 # src 
 where we make changes 
 # What is component?
