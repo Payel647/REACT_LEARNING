@@ -50,7 +50,6 @@ components starts with a capital letter. That’s how you know it’s a React co
 If you wish to return multiple elements in a component, you can do so by wrapping them in a parent tag. This can be a <div>, or, if you don’t want the elements to have a container, you could use a React fragment <> </>
 2.Close all tags.
 In HTML, many tags are self-closing and self-wrapping. In JSX however, we must explicitly close and wrap these tags.
-
 <input> would become <input />
 3.camelCase Most things.
 JSX turns into JavaScript, and attributes of elements become keys of JavaScript objects, so you can’t use dashes or reserved words such as class. Because of this, many HTML attributes are written in camelCase. Instead of stroke-width, you’d use strokeWidth, and instead of class you’d use className.
