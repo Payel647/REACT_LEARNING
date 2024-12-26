@@ -36,6 +36,24 @@ Can be slower in larger projects due to bundling.
 Newer, faster, and optimized for performance.
 Great for modern JavaScript features and faster development.
 Objects as State Variables
+run it on your terminal for use "npm create vite@latest"
+enter y and then press enter
+cd my-first-react-app
+npm install
+npm run dev
+
+## Notice that
+components starts with a capital letter. That’s how you know it’s a React component. React component names must always start with a capital letter, while HTML tags must be lowercase.
+
+## RULES OF JSX
+1.Return a single root element.
+If you wish to return multiple elements in a component, you can do so by wrapping them in a parent tag. This can be a <div>, or, if you don’t want the elements to have a container, you could use a React fragment <> </>
+2.Close all tags.
+In HTML, many tags are self-closing and self-wrapping. In JSX however, we must explicitly close and wrap these tags.
+
+<input> would become <input />
+3.camelCase Most things.
+JSX turns into JavaScript, and attributes of elements become keys of JavaScript objects, so you can’t use dashes or reserved words such as class. Because of this, many HTML attributes are written in camelCase. Instead of stroke-width, you’d use strokeWidth, and instead of class you’d use className.
 
 ## State isn't limited to simple values like strings or numbers. It can handle objects too! Here's how :
 
