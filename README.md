@@ -47,12 +47,11 @@ components starts with a capital letter. That’s how you know it’s a React co
 
 ## RULES OF JSX
 1.Return a single root element.
-If you wish to return multiple elements in a component, you can do so by wrapping them in a parent tag. This can be a div tag , or, if you don’t want the elements to have a container, you could use a React fragment <> </>
+If you wish to return multiple elements in a component, you can do so by wrapping them in a parent tag. This can be a div tag , or, if you don’t want the elements to have a container, you could use a React fragment
 
 
 2.Close all tags.
 In HTML, many tags are self-closing and self-wrapping. In JSX however, we must explicitly close and wrap these tags.
-<input> would become <input />
 
 
 3.camelCase Most things.
